@@ -57,9 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				15501A33252CF98D00B12413 /* AppDelegate.swift */,
-				15501A35252CF98D00B12413 /* art.scnassets */,
 				15501A37252CF98D00B12413 /* ViewController.swift */,
 				15501A39252CF98D00B12413 /* Main.storyboard */,
+				15501A35252CF98D00B12413 /* art.scnassets */,
 				15501A3C252CF99000B12413 /* Assets.xcassets */,
 				15501A3E252CF99000B12413 /* LaunchScreen.storyboard */,
 				15501A41252CF99000B12413 /* Info.plist */,
@@ -285,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7L2K59Q9U;
 				INFOPLIST_FILE = ARDicee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vb.ARDicee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7L2K59Q9U;
 				INFOPLIST_FILE = ARDicee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vb.ARDicee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
